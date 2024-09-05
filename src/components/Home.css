@@ -1,0 +1,162 @@
+/* Home Container */
+.home-container {
+  display: flex;
+  gap: 0;
+  width: 97vw;
+  height: 150vh;
+  overflow: hidden;
+  background-color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+
+/* Right Full-Width, Full-Height Container */
+.home-main-content {
+  flex: 1;
+  background-color: #fafafa;
+  color: #333;
+  padding: 0;
+  margin: 0;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  position: relative;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.home-main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.home-main-content-inner {
+  width: 90%;
+  height: 100%;
+  text-align: left;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.home-main-content-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.home-main-content p {
+  color: #444;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Carousel Container */
+.carousel-home {
+  position: relative;
+  display: flex;
+  overflow: hidden; /* Hide images outside the container */
+  width: 70%; /* Full width of parent */
+  height: 100%; /* Adjust height as needed */
+  margin: 0 auto; /* Center the carousel */
+  border-radius: 8px; /* Optional: add border radius for rounded corners */
+}
+
+/* Carousel Items */
+.carousel-home img {
+  flex: 0 0 100%; /* Each image takes full width of the container */
+  height: 100%; /* Each image takes full height of the container */
+  object-fit: cover; /* Cover the image within the given dimensions */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect */
+.carousel-home img:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Navigation Dots */
+.carousel-dots {
+  position: absolute;
+  bottom: 10px; /* Position the dots at the bottom */
+  width: 100%; /* Full width of the carousel */
+  text-align: center; /* Center the dots */
+  pointer-events: none; /* Ensure dots are not clickable */
+}
+
+.carousel-dot {
+  display: inline-block;
+  width: 12px; /* Slightly larger dots */
+  height: 12px; /* Slightly larger dots */
+  margin: 0 4px; /* Adjust spacing between dots */
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  pointer-events: auto; /* Make dots clickable */
+}
+
+.carousel-dot.active {
+  background-color: #333; /* Color for the active dot */
+}
+
+/* Ensure carousel container has a position relative */
+.carousel-home-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Left Container Styling */
+.home-left-container {
+  flex: 0 0 35%;
+  background-color: #e0e0e0;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  overflow-y: scroll;
+  max-width: 20%;
+  max-height: 100%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.home-left-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* Content Block Styling */
+.home-content-block {
+  margin: 5px;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  height: 30%;
+}
+
+.home-content-block:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-content-block img {
+  width: 90%;
+  height: 160px;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+
+.home-content-block p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+.imge2{
+  margin-left: 20%;
+}

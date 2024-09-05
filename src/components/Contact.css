@@ -1,0 +1,69 @@
+.contact-content {
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    background-color: #222; /* Dark background for the entire section */
+  }
+  
+  .contact-content .contact-title h4 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #fed700;
+    padding-bottom: 10px;
+  }
+  
+  .contact-content .contact-title p {
+    padding-bottom: 20px;
+    color: #ddd; /* Lighter text for subtitle */
+  }
+  
+  .contact {
+    max-width: 700px;
+    margin: auto;
+    background-color: #333; /* Darker background for the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px; /* Rounded corners for input fields */
+    background-color: #444; /* Slightly darker input background */
+    color: #fff; /* White text for inputs */
+  }
+  
+  .contact input::placeholder,
+  .contact textarea::placeholder {
+    color: #bbb; /* Placeholder text color */
+  }
+  
+  .contact .submit {
+    width: auto;
+    background-color: #fed700;
+    padding: 12px 40px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; /* Rounded corners for the submit button */
+    color: #000; /* Black text for the button */
+    margin-top: 10px;
+  }
+  
+  .contact .submit:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #e5c400; /* Darker yellow on hover */
+  }
+  
+  #msg {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+  }
+  

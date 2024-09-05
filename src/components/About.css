@@ -1,0 +1,115 @@
+/* About Container */
+.about-container {
+    display: flex; /* Use flexbox to create a side-by-side layout */
+    gap: 0; /* Remove the gap between the left and right containers */
+    width: 97vw; /* Use full viewport width */
+    height: 100vh; /* Use full viewport height */
+    overflow: hidden; /* Prevent scrolling on the overall container */
+    background-color: #f4f4f4; /* Set a different background color */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    margin-top: 50px;
+  }
+  
+  /* Left Container Styling */
+  .about-left-container {
+    flex: 0 0 35%; /* Takes 35% width of the container */
+    background-color: #e0e0e0; /* Light background for the container */
+    padding: 0; /* Remove padding */
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: none; /* Remove shadow effect */
+    overflow-y: scroll; /* Allow vertical scrolling */
+    max-width: 20%;
+    max-height: 100%; /* Limit height to the container's height */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  .about-left-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  /* Content Block Styling */
+  .about-content-block {
+    margin: 5px; /* Adds slight spacing between content blocks */
+    text-align: center; /* Centers the text */
+    padding: 15px; /* Adds padding inside the block */
+    border: 1px solid #bbb; /* Adds a border around the block */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    background-color: #fff; /* White background for readability */
+    height: 45%;
+  }
+  
+  .about-content-block:hover {
+    transform: scale(1.05); /* Scales up slightly on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a deeper shadow on hover */
+  }
+  
+  .about-content-block img {
+    width: 90%; /* Image width */
+    height: 160px; /* Image height */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 0px; /* Spacing below the image */
+  }
+  
+  .about-content-block h3 {
+    font-size: 22px; /* Font size for heading */
+    margin-bottom: 5px; /* Spacing below the heading */
+    color: #ff5722; /* Different color for heading */
+  }
+  
+  .about-content-block p {
+    font-size: 16px; /* Font size for paragraph */
+    color: #333; /* Dark text color */
+    line-height: 1.5; /* Line height for readability */
+  }
+  
+  /* Right Full-Width, Full-Height Container */
+  .about-main-content {
+    flex: 1; /* Takes the remaining 65% width */
+    background-color: #fafafa; /* Light background color */
+    color: #333; /* Text color */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    height: 100vh; /* Full height of viewport */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the inner content horizontally */
+    align-items: center; /* Center the inner content vertically */
+    overflow-y: scroll; /* Allow vertical scrolling */
+    position: relative; /* For positioning floating buttons */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  .about-main-content::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  .about-main-content-inner {
+    width: 90%; /* Width of the main content */
+    height: 100%;
+    text-align: left; /* Left-align the text */
+    overflow-y: auto; /* Allows scrolling if the content is too large */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  .about-main-content-inner::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  .about-main-content p {
+    color: #444; /* Paragraph text color */
+    font-size: 18px; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for readability */
+    margin: 0; /* Remove margins */
+    padding: 20px; /* Minimal padding for readability, adjust as needed */
+  }
+  .about-main-content-inner img {
+   width: 80%;
+   height: 80%;
+  }
+  .bmi-info {
+    margin-bottom: 50px;
+   }

@@ -1,0 +1,44 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Align items in a row */
+  justify-content: space-between; /* Space between copyright and social links */
+  align-items: center; /* Center items vertically */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
