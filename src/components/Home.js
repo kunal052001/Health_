@@ -149,22 +149,6 @@ const Home = () => {
       <div className="home-left-container">
         {/* Example of multiple divs, you can add more */}
         <div className="home-content-block">
-          <img src={`${process.env.PUBLIC_URL}/images/jym.jpg`} alt="Fitness" />
-          <p>Regular exercise increases the overall happiness in our life which keeps us mentally happy and peaceful too.
-             It relieves the symptoms of depression, stress, anxiety and other mental disorders.</p>
-        </div>
-        <div className="home-content-block">
-          <img src={`${process.env.PUBLIC_URL}/images/YOGA.jpg`} alt="Fitness" />
-          <p>Yoga has numerous benefits if we look at it closely. You will get relief when you practice it regularly. 
-            As it keeps away the ailments from our mind and body.</p>
-        </div>
-        <div className="home-content-block">
-          <img src={`${process.env.PUBLIC_URL}/images/PLAYING.jpg`} alt="Fitness" />
-          <p>It is very necessary for all of us to maintain a healthy lifestyle in order to be fit and fearless of diseases.
-             We must eat healthy food and do regular physical exercises to stay fit always.</p>
-        </div>
-
-        <div className="home-content-block">
           <img src={`${process.env.PUBLIC_URL}/images/DANCING.jpg`} alt="Fitness" />
           <p>Dancing can be a way to stay fit for people of all ages, shapes and sizes. It has a wide range of physical and mental benefits including: improved condition of your heart and lungs. 
             </p>
@@ -174,6 +158,14 @@ const Home = () => {
           <p>Boxers must have the ability to perform frequent bouts of high intensity activity during a training session or boxing match. The sport is a form of high intensity interval training
             </p>
         </div>
+       
+        <div className="home-content-block">
+          <img src={`${process.env.PUBLIC_URL}/images/PLAYING.jpg`} alt="Fitness" />
+          <p>It is very necessary for all of us to maintain a healthy lifestyle in order to be fit and fearless of diseases.
+             We must eat healthy food and do regular physical exercises to stay fit always.</p>
+        </div>
+
+       
         <div className="home-content-block">
           <img src={`${process.env.PUBLIC_URL}/images/BODYBUILDER.jpg`} alt="Fitness" />
           <p>It relieves the symptoms of depression, stress, anxiety and other mental disorders.
@@ -190,6 +182,16 @@ const Home = () => {
           <img src={`${process.env.PUBLIC_URL}/images/FAT.jpg`} alt="Fitness" />
           <p>Excessive dietary fat intake has been linked to increased risk of obesity,
              coronary heart disease and certain types of cancer.</p>
+        </div>
+        <div className="home-content-block">
+          <img src={`${process.env.PUBLIC_URL}/images/jym.jpg`} alt="Fitness" />
+          <p>Regular exercise increases the overall happiness in our life which keeps us mentally happy and peaceful too.
+             It relieves the symptoms of depression, stress, anxiety and other mental disorders.</p>
+        </div>
+        <div className="home-content-block">
+          <img src={`${process.env.PUBLIC_URL}/images/YOGA.jpg`} alt="Fitness" />
+          <p>Yoga has numerous benefits if we look at it closely. You will get relief when you practice it regularly. 
+            As it keeps away the ailments from our mind and body.</p>
         </div>
         <div className="home-content-block">
           <img src={`${process.env.PUBLIC_URL}/images/WALK.jpg`} alt="Fitness" />
