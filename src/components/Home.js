@@ -8,12 +8,12 @@ const Home = () => {
   const images = [
     `${process.env.PUBLIC_URL}/images/doctor.jpg`,
     `${process.env.PUBLIC_URL}/images/welth.jpg`,
-    `${process.env.PUBLIC_URL}/images/DIET.jpg`,
+    
     `${process.env.PUBLIC_URL}/images/medicine.jpg`,
     `${process.env.PUBLIC_URL}/images/bmi.jpg`,
     `${process.env.PUBLIC_URL}/images/dance.jpg`,
     `${process.env.PUBLIC_URL}/images/PLAYING.jpg`,
-    `${process.env.PUBLIC_URL}/images/DIET.jpg`,
+    
     `${process.env.PUBLIC_URL}/images/JYM.jpg`,
     `${process.env.PUBLIC_URL}/images/aurveds.jpg`,
     `${process.env.PUBLIC_URL}/images/BODY.jpg`,
